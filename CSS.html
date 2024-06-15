@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- START OF NAVIGATION BAR -->
+    <div class="navbar-container">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a href="index.html" class="navbar-a">Beranda</a>
+            </li>
+            <li class="navbar-li">
+                <a href="materi.html" class="navbar-a">Materi</a>
+            </li>
+            <li class="navbar-li">
+                <a href="aboutme.html" class="navbar-a">Tentang Saya</a>
+            </li>
+        </ul>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- CONTENT 1 -->
+    <div class="content-container-materi">
+        <h1 class="content-rangkuman">Rangkuman Materi CSS<br><br></h1>
+        <h2 class="content-rangkuman">Pengertian CSS<br><br></h2>
+    <br>
+        <p class="content-isirangkuman">
+            CSS, singkatan dari Cascading Style Sheets, adalah bahasa yang umumnya digunakan untuk mengatur tampilan elemen yang ditulis dalam bahasa markup seperti HTML. 
+            Fungsi utama CSS adalah memisahkan konten dari tampilan visual pada sebuah situs web.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            CSS pertama kali diciptakan dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Pada awalnya, HTML tidak memiliki tag yang berfungsi untuk memformat halaman. 
+            Pengguna hanya perlu menulis markup untuk situs web.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Tag seperti &lt;font> diperkenalkan dalam HTML versi 3.2, tetapi hal ini menyebabkan banyak masalah bagi pengembang. Karena situs web memiliki berbagai font, warna latar belakang, dan gaya, menulis ulang kode menjadi proses yang panjang dan rumit. 
+            Oleh karena itu, W3C menciptakan CSS untuk mengatasi masalah ini.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            HTML dan CSS memiliki keterkaitan yang erat. HTML berfungsi sebagai bahasa markup (fondasi situs), sementara CSS memperbaiki gaya (untuk semua aspek terkait tampilan website). 
+            Oleh karena itu, kedua bahasa ini harus bekerja sama. Selain penting dari segi teknis, CSS juga mempengaruhi tampilan visual sebuah situs web.
+        </p>
+    <br>
+        <h2 class="content-rangkuman">
+            Kelebihan CSS
+        </h2>
+        <p class="content-isirangkuman">
+            Cukup mudah membedakan mana halaman website yang menggunakan CSS atau tidak. 
+            Anda pasti pernah membuka website, tapi sesaat kemudian gagal loading dan malah menampilkan background putih yang didominasi teks hitam dan biru. Situasi ini menggambarkan bahwa CSS pada situs tersebut tidak dapat di-load dengan benar atau situs sama sekali tidak memiliki CSS. Umumnya, situs seperti ini hanya menerapkan HTML.
+    <br>
+    <br>
+            Sebelum menggunakan CSS, semua stylizing harus disertakan ke dalam markup HTML. Itu berati Anda harus mendeskripsikan semua background, warna font, alignment, dan lain-lain secara terpisah.
+    <br>
+    <br>
+            Dengan CSS, Anda dapat mengatur tampilan semua aspek pada file yang berbeda, lalu menentukan style, kemudian mengintegrasikan file CSS di atas markup HTML. Alhasil, markup HTML bisa lebih mudah di-maintain.
+    <br>
+    <br>
+            Singkatnya, dengan CSS, Anda tidak perlu mendeskripsikan tampilan dari masing-masing elemen secara berulang-ulang. Anda tidak membuang-buang waktu, kode yang digunakan pun lebih singkat, dan error dapat diminimalisir.
+    <br>
+    <br>
+            Karena opsi kustomisasi yang ada hampir tak terbatas, CSS memungkinkan Anda untuk menerapkan berbagai macam style pada satu halaman HTML.
+        </p>
+    
+        <h2 class="content-rangkuman">Cara Kerja CSS</h2>
+    <br>
+        <p class="content-isirangkuman">
+            CSS menggunakan bahasa Inggris sederhana dengan sintaks berbasis aturan. Sebagaimana telah dijelaskan sebelumnya, HTML tidak didesain untuk menerapkan elemen gaya, melainkan hanya untuk markup halaman. HTML hanya berfungsi untuk mendeskripsikan konten. 
+            Sebagai contoh: &lt;p>This is a paragraph.&lt;/p>.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Sintaks CSS cukup mudah dipahami. Struktur ini terdiri dari selektor dan blok deklarasi. Anda memilih elemen yang ingin diubah tampilannya, 
+            lalu mendeklarasikan perubahan yang ingin diterapkan pada elemen tersebut.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Terdapat berbagai aturan yang perlu diingat. Namun, struktur aturannya sangat simpel dan mudah dipahami.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Selektor merujuk pada elemen HTML yang ingin Anda ubah tampilannya. 
+            Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh tanda titik koma.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Setiap deklarasi terdiri dari nama properti dan nilainya, yang dipisahkan oleh tanda titik dua. Biasanya, deklarasi CSS diakhiri dengan tanda titik koma, 
+            sedangkan blok deklarasi dikelilingi oleh tanda kurung kurawal.
+        </p>
+    <br>
+    <br>
+        <h3 class="content-judulpenjelasanrangkuman">Berikut contoh yang bisa kita lihat:</h3>
+    <br>
+        <ul class="content-contohpenjelasanrangkuman-lebihbesar" type="none">
+            <li>&lt;style></li>
+            <li>p &#123;</li>
+            <li>  text-align: center;</li>
+            <li>  font-size: 16px;</li>
+            <li>  color: pink;</li>
+            <li>&#125;</li>
+            <li>&ltstyle></li>
+        </ul>
+        <br>
+    </div>
+    <!-- CONTENT 1 END -->
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+        <h2 class="footer-h2">
+            Sekian dan terimakasih
+        </h2>
+    </div>
+    <!-- FOOTER END -->
+</body>
+</html>

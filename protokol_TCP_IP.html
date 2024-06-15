@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- START OF NAVIGATION BAR -->
+    <div class="navbar-container">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a href="index.html" class="navbar-a">Beranda</a>
+            </li>
+            <li class="navbar-li">
+                <a href="materi.html" class="navbar-a">Materi</a>
+            </li>
+            <li class="navbar-li">
+                <a href="aboutme.html" class="navbar-a">Tentang Saya</a>
+            </li>
+        </ul>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- CONTENT 1 -->
+    <div class="content-container-materi">
+        <h2 class="content-rangkuman">Rangkuman Protokol TCP/IP <br><br></h2>
+        <h3 class="content-rangkuman">Protokol dan Standar<br></h3>
+        <h4 class="content-rangkuman">Protokol</h4>
+        <p class="content-isirangkuman">
+            Dalam suatu jaringan komputer, terjadi sebuah proses komunikasi antar entiti atau perangkat yang berlainan sistemnya. 
+            Entiti atau perangkat ini adalah segala sesuatu yang mampu menerima dan mengirim. 
+            Untuk berkomunikasi mengirim dan menerima antara dua entiti 
+            dibutuhkan pengertian di antara kedua belah pihak. Pengertian ini lah yang dikatakan sebagai 
+            protokol. Jadi protokol adalah himpunan aturan-aturan main yang mengatur komunikasi data. 
+            Protokol mendefinisikan apa yang dikomunikasikan bagaimana dan kapan terjadinya 
+            komunikasi. Elemen-elemen penting daripada protokol adalah : syntax, semantics dan timing. 
+            Syntax mengacu pada struktur atau format data, yang mana dalam urutan tampilannya 
+            memiliki makna tersendiri. Sebagai contoh, sebuah protokol sederhana akan memiliki 
+            urutan pada delapan bit pertama adalah alamat pengirim, delapan bit kedua adalah 
+            alamat penerima dan bit stream sisanya merupakan informasinya sendiri. 
+            Semantics mengacu  pada maksud setiap section bit. Dengan kata lain adalah 
+            bagaimana bit-bit tersebut terpola untuk dapat diterjemahkan. 
+            Timing mengacu pada 2 karakteristik yakni kapan data harus dikirim dan seberapa 
+            cepat data tersebut dikirim. Sebagai contoh, jika pengirim memproduksi data sebesar 
+            100 Megabits per detik (Mbps) namun penerima hanya mampu mengolah data pada 
+            kecepatan 1 Mbps, maka transmisi data akan menjadi overload pada sisi penerima dan 
+            akibatnya banyak data yang akan hilang atau musnah.
+        </p>
+        <h4 class="content-rangkuman">Standar</h4>
+        <p class="content-isirangkuman">
+            Standar adalah suatu hal yang penting dalam penciptaan dan pemeliharaan sebuah kompetisi 
+            asar daripada manufaktur perangkat komunikasi dan menjadi jaminan interoperability data 
+            dalam proses komunikasi. 
+            Standar komunikasi data dapat dikategorikan dalam 2 kategori yakni kategori de facto 
+            (konvensi) dan de jure (secara hukum atau regulasi). <br>
+        </p>
+    <br>
+
+        <h3 class="content-rangkuman">Model OSI dan Protokol TCP/IP <br></h3>
+            <p class="content-isirangkuman">Model lapisan/layer yang mendominasi literatur komunikasi data dan jaringan sebelum 1990 
+                adalah Model Open System Interconnection (OSI). Setiap orang yakin bahwa model OSI akan 
+                menjadi standar terakhir untuk komunikasi data, namun nampaknya hal itu tidak pernah 
+                terjadi. Justru protokol TCP/IP yang telah menjadi arsitektur model lapisan dari protokol 
+                internet yang sangat dominan bahkan terus menerus diuji, dikembangkan dan diperluas 
+                standarnya. <br><br>
+            </p>
+        <h4 class="content-rangkuman">MODEL OSI</h4>
+        <p class="content-isirangkuman">
+            Adalah sebuah badan multinasional yang didirikan tahun 1947 yang bernama International 
+            Standards Organization (ISO) sebagai badan yang melahirkan standar-standar standar 
+            internasional. ISO ini mengeluarkan juga standar jaringan komunikasi yang mencakup segala 
+            aspek yaitu model OSI. OSI adalah open system yang merupakan himpunan protokol yang 
+            memungkinkan terhubungnya 2 sistem yang berbeda yang berasal dari underlying architecture 
+            yang berbeda pula. Jadi tujuan OSI ini adalah untuk memfasilitasi bagaimana suatu 
+            komunikasi dapat terjalin dari sistem yang bebeda tanpa memerlukan perubahan yang 
+            signifikan pada hardware dan software di tingkat underlying. Seperti gambar dibawah.
+        </p>
+    <br>
+        <img height="350px" width="300px" src="gambar TCPIP/Model OSI.png" alt="">
+    <br>
+        <p class="content-penjelasanrangkuman">Kemudian ada gambar berikut:</p>
+    <br>
+        <img height="470px" width="550px" src="gambar TCPIP/Lapisan-lapisan OSI.png" alt=""><br>
+        <h4 class="content-judulpenjelasanrangkuman">Penjelasan:</h4>
+        <p class="content-isipenjelasanrangkuman">
+            Model OSI disusun atas 7 lapisan, yakni; <br> 
+            1. fisik (lapisan 1), <br>
+            2. data link (lapisan 2), <br>
+            3. network (lapisan 3), <br>
+            4. transport (lapisan 4), <br>
+            5. session (lapisan 5), <br>
+            6. presentasi (lapisan 6) <br>
+            7. aplikasi (lapisan 7). <br><br>
+            Pada gambar diatas, Anda dapat juga melihat bagaimana setiap lapisan terlibat pada proses pengiriman 
+            pesan/message dari Device A ke Device B. Terlihat bahwa perjalanan message dari A ke B 
+            melewati banyak intermediasi node. Intermediasi node ini biasanya hanya melibatkan tiga 
+            lapisan pertama model OSI saja.
+        </p>
+    </div>
+    <!-- CONTENT 1 END -->
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+        <h2 class="footer-h2">
+            Sekian dan terimakasih
+        </h2>
+    </div>
+    <!-- FOOTER END -->
+</body>
+</html>

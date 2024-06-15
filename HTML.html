@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- START OF NAVIGATION BAR -->
+    <div class="navbar-container">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a href="index.html" class="navbar-a">Beranda</a>
+            </li>
+            <li class="navbar-li">
+                <a href="materi.html" class="navbar-a">Materi</a>
+            </li>
+            <li class="navbar-li">
+                <a href="aboutme.html" class="navbar-a">Tentang Saya</a>
+            </li>
+        </ul>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- CONTENT 1 -->
+    <div class="content-container-materi">
+        <h1 class="content-rangkuman">Rangkuman Materi HTML<br><br></h1>
+        <h2 class="content-rangkuman">Pengertian HTML<br><br></h2>
+    <br>
+        <p class="content-isirangkuman">
+            HTML adalah bahasa markup yang sering digunakan untuk membangun bagian-bagian seperti paragraf, heading, dan link pada sebuah halaman web. Meskipun strukturnya tampak seperti kode pemrograman, HTML sebenarnya bukanlah bahasa pemrograman.
+            HTML sebenarnya tidak dikategorikan sebagai bahasa pemrograman karena tidak memiliki kemampuan untuk menjalankan fungsi dinamis. Saat ini, bahasa markup ini diakui 
+            sebagai standar resmi web dan dikelola oleh World Wide Web Consortium (W3C), yang juga bertanggung jawab merilis pembaruan HTML secara rutin.
+        </p>
+    <br>
+        <p class="content-isirangkuman">
+            Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman website dan aplikasi web. Sejarah HTML diciptakan oleh Tim Berners-Lee, 
+            seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss.
+        </p>
+    <br>
+        <h2 class="content-rangkuman">Sejarah HTML</h2>
+    <br>
+        <p class="content-isirangkuman">
+            Versi pertama HTML dirilis oleh Tim Berners Lee pada tahun 1991, yang memiliki 18 tag. Sejak saat itu, setiap kali ada versi barunya, pasti akan selalu ada tag dan attribute 
+            (tag modifier) yang juga baru. Ketika bekerja dengan bahasa markup ini, Anda menggunakan struktur kode sederhana (tag dan attribute) untuk mark up halaman website. 
+            Misalnya, Anda membuat sebuah paragraf dengan menempatkan enclosed text di antara tag pembuka &lt;p&gt;  dan tag penutup &lt;/p&gt;.
+        </p>
+    <br>
+        <p class="content-contohpenjelasanrangkuman">
+            &lt;p&gt;Seperti inilah kita menuliskan paragraf di HTML&lt;p&gt; <br>
+            &lt;p&gt;Dan bisa lebih dari satu juga&lt;p&gt;
+        </p>
+    <br>
+    <br>
+        <p class="content-isirangkuman">
+            Berkat popularitasnya yang terus meningkat, bahasa markup ini kini dianggap sebagai standar web resmi.
+    <br>
+    <br>
+            Spesifikasi HTML dikelola dan dikembangkan oleh World Wide Web Consortium (W3C). Berdasarkan HTML Element Reference milik Mozilla Developer Network, saat ini ada 140 tag HTML, 
+            meskipun sebagiannya sudah tidak lagi didukung oleh beberapa versi terbaru browser.
+            Kemudian, pada tahun 2014, HTML5 mulai diperkenalkan. Dengan diperkenalkannya HTML5, terdapat semantic baru seperti &lt;artcile&gt;, &lt;header&gt;, dan &lt;footer&gt; yang 
+            memperjelas bagian-bagian dalam konten.
+        </p>
+    <br>
+        <h2 class="content-rangkuman">Cara Kerja HTML</h2>
+    <br>
+        <p class="content-isirangkuman">
+            File HTML memiliki ekstensi .html atau .htm dan dapat dibuka dengan web browser seperti Google Chrome, Safari, atau Mozilla Firefox. Browser ini membaca file HTML dan menampilkan isinya agar pengguna internet dapat melihat dan membacanya.
+            Pada umumnya, sebuah situs web terdiri dari beberapa halaman HTML yang berbeda. Misalnya, halaman beranda, halaman Tentang Penulis itu sendiri, dan halaman kontak masing-masing memiliki dokumen HTML tersendiri.
+            Setiap halaman terdiri dari serangkaian tag atau elemen yang tersusun untuk membentuk halaman web. 
+    <br>
+    <br>        
+            Tag ini membangun hierarki yang menyusun konten menjadi bagian-bagian seperti paragraf, heading, dan blok konten lainnya.
+            Sebagian besar elemen dalam bahasa markup ini memiliki tag pembuka dan penutup yang menggunakan sintaksis &lt;tag>&lt;/tag>.
+        </p>
+    <br>
+        <p class="content-judulpenjelasanrangkuman">
+            Berikut adalah contoh kode dari struktur HTML:
+        </p>
+        <ul type="none" class="content-contohpenjelasanrangkuman-lebihbesar">
+        <li>&lt;div></li>
+        <li>&lt;h1>The Main Heading&lt;/h1></li>
+        <li>&lt;h2>A catchy subheading&lt;/h2></li>
+        <li>&lt;p>Paragraph one&lt;/p></li>
+        <li>&lt;img src="/" alt="Image"></li>
+        <li>&lt;p>Paragraph two with a &lt;a href="https://example.com">hyperlink&lt;/a>&lt;/p></li>
+        <li>&lt;/div></li>
+        </ul>
+    <br>
+        <ul class="content-isipenjelasanrangkuman">
+            <li>Elemen teratas dan terbawah adalah division sederhana (&lt;div>&lt;/div>) yang bisa Anda gunakan untuk mark up bagian konten yang lebih besar.</li><br>
+            <li>Susunan di atas terdiri atas heading (&lt;h1>&lt;/h1>), subheading (&lt;h2>&lt;/h2), dua paragraf (&lt;p>&lt;/p>), dan satu gambar (&lt;img>).</li><br>
+            <li>Paragraf kedua meliputi sebuah link (&lt;a>&lt;/a>) dengan attribute href yang terdiri atas URL tujuan.</li><br>
+            <li>Tag gambar memiliki dua attribute, src untuk path gambar dan alt untuk deskripsi gambar.</li><br>
+        </ul>
+    <br>
+    <br>
+        <p class="content-judulpenjelasanrangkuman">
+            Selain itu, beberapa contoh penggunaan umum HTML adalah
+        </p>
+    <br>
+    <ul class="content-isipenjelasanrangkuman">
+        <li>Pengembangan web. Developer menggunakan kode HTML untuk mendesain tampilan elemen halaman web di browser, seperti teks, hyperlink, dan file media.</li><br>
+        <li>Navigasi internet. Pengguna bisa menelusuri dan menyisipkan link antara halaman dan website terkait karena HTML banyak digunakan untuk menyematkan hyperlink.</li><br>
+        <li>Dokumentasi web. HTML bisa digunakan untuk mengatur dan memformat dokumen, mirip dengan Microsoft Word.</li><br>
+    </ul>
+
+    </div>
+    <!-- CONTENT 1 END -->
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+        <h2 class="footer-h2">
+            Sekian dan terimakasih
+        </h2>
+    </div>
+    <!-- FOOTER END -->
+</body>
+</html>

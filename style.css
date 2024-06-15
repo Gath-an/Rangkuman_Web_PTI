@@ -1,0 +1,197 @@
+*,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ========Judul Navigation Bar====== */
+.navbar-container{
+    background-color: #694311;
+    width: 100%;
+    height: 60px;
+}
+.navbar-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.navbar-li{
+    list-style-type: none;
+    color: azure;
+    margin: 30px;
+    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
+}
+.navbar-a{
+    color: rgb(194, 162, 108);
+    text-decoration: none;
+}
+.navbar-li:hover{
+    background-color: rgb(67, 53, 8);
+    transition: 0.2s ease-in-out;
+    transition-delay:0.1s;
+    border-radius: 4px;
+    align-content: center;
+    padding: 6px;
+
+}
+
+
+/* ========Judul Materi====== */
+.content-container-beranda{
+    background-color: #f3dec4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.content-container-materi{
+    background-color: #f3dec4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.navcontent-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcontent-li{
+    color: azure;
+    margin: 30px;
+    padding: 5px;
+    list-style-type: none;
+}
+.navcontent-a{
+    color: beige;
+    text-decoration: none;
+    background-color: #694311;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+.navcontent-a:hover{
+    background-color: rgb(67, 53, 8);
+    transition: 0.2s ease-in-out;
+    transition-delay:0.1s;
+    border-radius: 4px;
+    align-content: center;
+    padding: 12px;
+}
+
+/* ========Isi Materi====== */
+.content-rangkuman{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    color: #4e3716;
+}
+.content-isirangkuman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    color: beige;
+    background-color: rgb(145, 115, 77);
+    border-radius: 20px;
+    font-size: 18px;
+}
+.content-isirangkumanlist{
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    margin-right: 500px;
+    padding: 20px;
+    color: beige;
+    background-color: rgb(145, 115, 77);
+    border-radius: 5px;
+}
+.content-judulpenjelasanrangkuman{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-right: 580px;
+    padding: 5px;
+    color: beige;
+    background-color: rgb(85, 67, 42);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.content-isipenjelasanrangkuman{
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    width: 50%;
+    margin-left: 400px auto;
+    margin-bottom: 20px;
+    color: #4e3716;
+}
+.content-contohpenjelasanrangkuman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    color: #342818;
+    background-color: rgb(229, 235, 171);
+    padding: 20px;
+    border-radius: 5px;
+}
+.content-contohpenjelasanrangkuman-lebihbesar{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    color: #342818;
+    background-color: rgb(229, 235, 171);
+    padding: 20px;
+    border-radius: 5px;
+}
+.aboutme{
+    text-align: left;
+    justify-content: center;
+    display: list-item;
+    padding: 10px;
+    background-color: #6d5333;
+    color: beige;
+    list-style-type: none;
+}
+.aboutme:hover{
+    background-color: rgb(241, 213, 122);
+    transition: 0.2s ease-in-out;
+    transition-delay:0.1s;
+    border-radius: 4px;
+    align-content: center;
+    padding: 300px;
+    color: #4e3716;
+}
+
+/* =======Footer====== */
+.footer-container{
+    background-color: #6d5333;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+.footer-h2{
+    color: rgb(194, 162, 108);
+}
